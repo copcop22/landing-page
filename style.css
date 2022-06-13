@@ -10,18 +10,19 @@ body {
 
     /* width: 1280px;
     height: 640px; */
-    position: absolute;
+    height: 100%;
     margin: 0px;
     background: radial-gradient(50% 50% at 50% 50%, rgba(0, 0, 0, 0.26) 0%, #000000 100%);
     background-blend-mode: darken;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-position: center;
 }
 
 
 
 .jumbotron {
-    position: fixed;
+    position: absolute;
     /* width: 500px;
     height: 500px; */
     width: 935px;
@@ -32,7 +33,11 @@ body {
     right: 0;
     margin: auto;
     background-image: url(img/flower-bg-1.svg);
-
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    vertical-align: middle;
+    /* position: relative; */
 }
 
 .jumbotron .radial {
